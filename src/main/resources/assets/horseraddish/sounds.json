@@ -1,0 +1,27 @@
+{
+  "horse_landing_1": {"subtitle": "sounds.horseraddish.horse_landing_1",
+    "sounds": [
+      "horseraddish:horse_landing_1"
+    ]
+  },
+  "horse_landing_2": {"subtitle": "sounds.horseraddish.horse_landing_2",
+    "sounds": [
+      "horseraddish:horse_landing_2"
+    ]
+  },
+  "horse_landing_3": {"subtitle": "sounds.horseraddish.horse_landing_3",
+    "sounds": [
+      "horseraddish:horse_landing_3"
+    ]
+  },
+  "horse_landing_4": {"subtitle": "sounds.horseraddish.horse_landing_4",
+    "sounds": [
+      "horseraddish:horse_landing_4"
+    ]
+  },
+  "horse_landing_5": {"subtitle": "sounds.horseraddish.horse_landing_5",
+    "sounds": [
+      "horseraddish:horse_landing_5"
+    ]
+  }
+}
