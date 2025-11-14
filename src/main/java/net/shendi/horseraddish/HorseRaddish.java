@@ -1,5 +1,6 @@
 package net.shendi.horseraddish;
 
+import net.shendi.horseraddish.effect.HREffects;
 import net.shendi.horseraddish.event.HRDispenserEvents;
 import net.shendi.horseraddish.event.HorseNetEvents;
 import net.shendi.horseraddish.item.HRItems;
@@ -32,6 +33,7 @@ public class HorseRaddish {
 
         HRItems.register(modEventBus);
         HRSounds.register(modEventBus);
+        HREffects.register(modEventBus);
         NeoForge.EVENT_BUS.register(new HorseNetEvents());
 
 

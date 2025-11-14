@@ -16,6 +16,11 @@ public class HRItems {
     public static final DeferredItem<Item> HORSE_IN_A_NET = ITEMS.register("horse_in_a_net",
             () -> new NetItem(new Item.Properties().stacksTo(1), true));
 
+    public static final DeferredItem<Item> RADISH = ITEMS.register("radish",
+            () -> new Item(new Item.Properties().food(HRFoods.RADISH)));
+
+    public static final DeferredItem<Item> HORSE_RADISH = ITEMS.register("horse_radish",
+            () -> new Item(new Item.Properties().food(HRFoods.HORSE_RADISH)));
 
 
     public static void register(IEventBus eventBus) {
